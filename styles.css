@@ -1,19 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
 * {
     font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: rgb(234, 251, 251);
 }
 header {
-    margin: 47px 0 178px 42px;
+    margin: 40px 0 50px 42px;
+    position: sticky;
+    /* deixa a barra de menu fixa,
+    quando rola a página */
+    top: 0; /* determina quando vai ficar fixo */
 }
-.link-header {
-    font-weight: 400px;
+.link-menu {
+    font-weight: 400;
     font-size: 14px;
-    line-height: 100%;
+    line-height: 21%;
+    text-align: center;
     color: rgba(23, 35, 61, 1);
     cursor: pointer;
-    margin: 32px;
+    margin-right: 32px;
 }
 .button-header {
     width: 124px;
@@ -28,6 +37,13 @@ header {
     cursor: pointer;
 }
 
+.button-header:hover { /* pseudo classe */
+       border: 1px solid rgba(76, 181, 56, 1);
+    background-color: rgb(255, 255, 255);
+    color:  rgba(111, 191, 68, 1);
+    font-weight: bolder;
+}
+
 .logo-image {
     width: 534px;
     height: 467px;
@@ -37,35 +53,58 @@ header {
 
 section {
     display: inline-block;
-    margin-left: 96.83px;
+    margin-left: 85px;
+    width: 535px;
 }
 
 h1 {
     color: rgba(22, 26, 73, 1);
     font-weight: 700px;
     font-size: 62px;
-    line-height: 82px;
-    width: 582px;
+    line-height: 60px;
+
+}
+h1::first-line { /* pseudo elemento */
+    color: darkgreen;
 }
 
 p {
     font-weight: 400;
     font-size: 18px;
-    line-height: 33px;
-    width: 493px;
+    line-height: 30px;
+    
     margin-top: 47px;
     margin-bottom: 55px;
+}
+
+p::first-letter { /* pseudo elemento */
+    
+    font-size: 80px;
 }
 
 .button-main {
     width: 112px;
     height: 27px;
-    background: none;
+    background: transparent;
     border: none;
     color: rgba(111, 191, 68, 1);
-    font-weight: 500;
+    font-weight: 700;
     font-size: 18px;
     line-height: 100%;
     cursor: pointer;
        
+}
+.button-tell-me {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    border-radius: 500px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+}
+
+.button-tell-me:hover { /* pseudo classe */
+    width: 150px;
+    height: 150px;
 }
