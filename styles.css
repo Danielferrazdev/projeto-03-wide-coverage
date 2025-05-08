@@ -108,3 +108,71 @@ p::first-letter { /* pseudo elemento */
     width: 150px;
     height: 150px;
 }
+
+@media screen and (max-width: 851px) {
+   
+    header {
+        position: fixed;
+        top: 0;
+        right: 0;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    .button-header {
+        position: relative;
+        right: 45px;
+    }
+    
+    section {
+        width: 320px;
+        margin-left: 0px;
+        display: inline-block;
+        position: relative;
+        top: 125px;
+        left: 25px;
+    }
+    
+    h1 {
+        width: 278px;
+        height: 60px;
+        margin: 0px auto;
+        font-size: 30px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    p {
+        font-size: 18px;
+        line-height: 20px;
+        text-align: center;
+
+    }
+
+    .button-main {
+        margin: 0px auto;
+        display: block;
+        height: 62px;
+        width: 269px;
+        cursor: pointer;
+        font-size: 18px;
+        line-height: 100%;
+        text-align: center;
+    }
+
+    .logo-image {
+        height: 30%;
+        width: 85%;
+        position: fixed;
+        bottom: 10%;
+        left: 16px;
+        margin: auto;
+        padding-top: 0%;
+    }
+
+    .button-tell-me {
+        display: none;
+    }
+}
