@@ -43,11 +43,11 @@ Durante o desenvolvimento, aprendi:
  
 - 💻 Versão desktop:
 
-![Tela do projeto](./img/wide converage-desktop.png)
+![Tela do projeto](./img/wide-converage-desktop.png)
 
 - 📱 Versão dispositivos móveis:
 
-![Tela do projeto](./img/we-care-print-responsivo.png)
+![Tela do projeto](./img/wide-converage-mobile.png)
 
 ---
 
