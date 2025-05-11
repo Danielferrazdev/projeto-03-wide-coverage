@@ -1,6 +1,4 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
-
-
 * {
     font-family: "Poppins", sans-serif;
     margin: 0;
@@ -36,52 +34,42 @@ header {
     line-height: 100%;
     cursor: pointer;
 }
-
 .button-header:hover { /* pseudo classe */
        border: 1px solid rgba(76, 181, 56, 1);
     background-color: rgb(255, 255, 255);
     color:  rgba(111, 191, 68, 1);
     font-weight: bolder;
 }
-
 .logo-image {
     width: 534px;
     height: 467px;
     margin-left: 121px;
     display: inline-block;
 }
-
 section {
     display: inline-block;
     margin-left: 85px;
     width: 535px;
 }
-
 h1 {
     color: rgba(22, 26, 73, 1);
     font-weight: 700px;
     font-size: 62px;
     line-height: 60px;
-
 }
 h1::first-line { /* pseudo elemento */
     color: darkgreen;
 }
-
 p {
     font-weight: 400;
     font-size: 18px;
     line-height: 30px;
-    
     margin-top: 47px;
     margin-bottom: 55px;
 }
-
 p::first-letter { /* pseudo elemento */
-    
     font-size: 80px;
 }
-
 .button-main {
     width: 112px;
     height: 27px;
@@ -92,7 +80,6 @@ p::first-letter { /* pseudo elemento */
     font-size: 18px;
     line-height: 100%;
     cursor: pointer;
-       
 }
 .button-tell-me {
     position: fixed;
@@ -103,29 +90,23 @@ p::first-letter { /* pseudo elemento */
     height: 100px;
     cursor: pointer;
 }
-
 .button-tell-me:hover { /* pseudo classe */
     width: 150px;
     height: 150px;
 }
-
 @media screen and (max-width: 851px) {
-   
     header {
         position: fixed;
         top: 0;
         right: 0;
     }
-
     .link-menu {
         display: none;
     }
-
     .button-header {
         position: relative;
         right: 45px;
     }
-    
     section {
         width: 320px;
         margin-left: 0px;
@@ -134,7 +115,6 @@ p::first-letter { /* pseudo elemento */
         top: 125px;
         left: 25px;
     }
-    
     h1 {
         width: 278px;
         height: 60px;
@@ -143,7 +123,6 @@ p::first-letter { /* pseudo elemento */
         line-height: 30px;
         text-align: center;
     }
-
     p {
         font-size: 18px;
         position: fixed;
@@ -152,9 +131,7 @@ p::first-letter { /* pseudo elemento */
         padding: 0 43px;
         line-height: 20px;
         text-align: center;
-
     }
-
     .button-main {
         margin: 0px auto;
         display: block;
@@ -167,7 +144,6 @@ p::first-letter { /* pseudo elemento */
         line-height: 100%;
         text-align: center;
     }
-
     .logo-image {
         height: 30%;
         width: 85%;
@@ -176,7 +152,6 @@ p::first-letter { /* pseudo elemento */
         margin: 0 30px;
         padding-top: 0%;
     }
-
     .button-tell-me {
         display: none;
     }
