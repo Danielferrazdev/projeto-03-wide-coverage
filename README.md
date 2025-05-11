@@ -1,6 +1,6 @@
 <h1 align="center"># 🌐 Projeto 03 — Wide Coverage</h1>
 
-> <p align="center">⚙️ Projeto desenvolvido para praticar a estruturação com **HTML semântico**, aplicação proridade de **CSS como o POSITION, PSEUDO ELEMENTOS/CLASSES, e tornar a página **responsiva para diferentes dispositivos**.</p>
+> <p align="center">⚙️ Projeto desenvolvido para praticar a estruturação com **HTML semântico**, aplicação proridade de **CSS como o POSITION, PSEUDO ELEMENTOS/CLASSES, e tornar a página **responsiva para diferentes dispositivos (portrait) **.</p>
 
 ---
 
@@ -21,7 +21,7 @@
 
 - ✅ HTML com estrutura semântica
 - ✅ Estilização com as propriedades position e pseudo elemento/classe
-- ✅ Responsividade (mobile e desktop)
+- ✅ Responsividade (mobile (portrait) e desktop)
 - ✅ Fixação de seção
 - ✅ Efeitos visuais com hover
 
@@ -33,7 +33,7 @@ Durante o desenvolvimento, aprendi:
 
 - 🗂️ A importância do HTML semântico para acessibilidade e organização  
 - 🖌️ Como aplicar efeitos de hover com CSS  
-- 📱 Como tornar um layout adaptável a diversos tamanhos de tela  
+- 📱 Como tornar um layout adaptável a diversos tamanhos de tela (portrait)  
 - 🔧 Fixação de elementos na tela com CSS  
 - 🎯 Leitura e interpretação de um layout no Figma para codificação
 
@@ -45,7 +45,7 @@ Durante o desenvolvimento, aprendi:
 
 ![Tela do projeto](./img/wide-converage-desktop.png)
 
-- 📱 Versão dispositivos móveis:
+- 📱 Versão dispositivos móveis (portrait):
 
 ![Tela do projeto](./img/wide-converage-mobile.png)
 
