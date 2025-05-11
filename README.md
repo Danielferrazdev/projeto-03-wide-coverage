@@ -1,4 +1,4 @@
-<h1 align="center"># 🌐 Projeto 03 — Wide Coverage</h1>
+<h1 align="center"># 🌐 Projeto 03 — WIDE COVERAGE</h1>
 
 > <p align="center">⚙️ Projeto desenvolvido para praticar a estruturação com **HTML semântico**, aplicação proridade de **CSS como o POSITION, PSEUDO ELEMENTOS/CLASSES, e tornar a página **responsiva para diferentes dispositivos (portrait) **.</p>
 
